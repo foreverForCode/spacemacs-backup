@@ -409,7 +409,7 @@ values."
         (indent-line-to (js--proper-indentation parse-status))
         (when (> offset 0) (forward-char offset)))))
 
-  (global-set-key (kbd "<backtab>") 'un-indent-by-removing-4-spaces)
+  (global-set-key (kbd "<backtab>") 'indent-by-removing-4-spaces)
   (defun un-indent-by-removing-4-spaces ()
     "remove 4 spaces from beginning of of line"
     (interactive)
