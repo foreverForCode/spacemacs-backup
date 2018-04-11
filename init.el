@@ -38,6 +38,7 @@ values."
      prodigy
      search-engine
      graphviz
+     common-lisp
      (syntax-checking :variables syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
@@ -98,7 +99,7 @@ values."
    dotspacemacs-excluded-packages
    '(magit-gh-pulls magit-gitflow  evil-mc realgud
                     evil-args evil-ediff evil-exchange evil-unimpaired
-                    evil-indent-plus volatile-highlights smartparens
+                    evil-indent-plus volatile-highlights
                     spaceline holy-mode skewer-mode rainbow-delimiters
                     highlight-indentation vi-tilde-fringe eyebrowse
                     org-bullets smooth-scrolling org-repo-todo org-download org-timer
