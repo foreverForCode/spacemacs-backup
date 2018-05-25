@@ -5,7 +5,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ahs-case-fold-search nil t)
+ '(ahs-case-fold-search nil)
+ '(auto-save-default nil)
+ '(auto-save-list-file-prefix "/Users/lixiang/.emacs.d/.cache/auto-save/")
  '(command-log-mode-window-size 50)
  '(company-dabbrev-minimum-length 3)
  '(company-dabbrev-other-buffers nil)
